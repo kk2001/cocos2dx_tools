@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'gameTools4Cocos' target in the 'gameTools4Cocos' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
