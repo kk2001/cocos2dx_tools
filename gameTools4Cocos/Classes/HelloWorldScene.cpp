@@ -1,6 +1,8 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 
+#include "Logger.h"
+
 using namespace cocos2d;
 using namespace CocosDenshion;
 #include "MenuWithAuthority.h"
@@ -78,6 +80,10 @@ bool HelloWorld::init()
     CCMenu* m =  CCMenu::create( f1,NULL );
     this->addChild( m ,10);
     this->addChild( _menu ,2 );
+    
+    Logger::info( "ok %s" , "ok");
+    
+    
     return true;
 }
 

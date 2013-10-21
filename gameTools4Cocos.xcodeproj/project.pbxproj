@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB37ABAF18150D0E001C68D5 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB37ABAD18150D0E001C68D5 /* Logger.cpp */; };
 		F424CE4C1814FEA60049B699 /* Tools4GameControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F424CE481814FEA60049B699 /* Tools4GameControl.cpp */; };
-		F424CE4F1814FFC20049B699 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F424CE4D1814FFC20049B699 /* Logger.cpp */; };
 		F449492A180A9E08005728C0 /* MenuWithAuthority.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4494928180A9E08005728C0 /* MenuWithAuthority.cpp */; };
 		F46950C21809B98E00D870B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46950C11809B98E00D870B7 /* QuartzCore.framework */; };
 		F46950C41809B98E00D870B7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46950C31809B98E00D870B7 /* OpenGLES.framework */; };
@@ -286,10 +286,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB37ABAD18150D0E001C68D5 /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		CB37ABAE18150D0E001C68D5 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
 		F424CE481814FEA60049B699 /* Tools4GameControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tools4GameControl.cpp; sourceTree = "<group>"; };
 		F424CE491814FEA60049B699 /* Tools4GameControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools4GameControl.h; sourceTree = "<group>"; };
-		F424CE4D1814FFC20049B699 /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
-		F424CE4E1814FFC20049B699 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
 		F424CE51181500560049B699 /* Config4Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config4Game.h; path = Classes/tools_4_cocos/Tools/Common/Config4Game.h; sourceTree = "<group>"; };
 		F4494928180A9E08005728C0 /* MenuWithAuthority.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuWithAuthority.cpp; path = Classes/tools_4_cocos/UI/MenuWithAuthority.cpp; sourceTree = "<group>"; };
 		F4494929180A9E08005728C0 /* MenuWithAuthority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuWithAuthority.h; path = Classes/tools_4_cocos/UI/MenuWithAuthority.h; sourceTree = "<group>"; };
@@ -957,8 +957,8 @@
 		F424CE4B1814FEA60049B699 /* Logger */ = {
 			isa = PBXGroup;
 			children = (
-				F424CE4D1814FFC20049B699 /* Logger.cpp */,
-				F424CE4E1814FFC20049B699 /* Logger.h */,
+				CB37ABAD18150D0E001C68D5 /* Logger.cpp */,
+				CB37ABAE18150D0E001C68D5 /* Logger.h */,
 			);
 			name = Logger;
 			path = Classes/tools_4_cocos/Tools/Logger;
@@ -2510,7 +2510,7 @@
 				F46954681809B99800D870B7 /* HelloWorldScene.cpp in Sources */,
 				F449492A180A9E08005728C0 /* MenuWithAuthority.cpp in Sources */,
 				F424CE4C1814FEA60049B699 /* Tools4GameControl.cpp in Sources */,
-				F424CE4F1814FFC20049B699 /* Logger.cpp in Sources */,
+				CB37ABAF18150D0E001C68D5 /* Logger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
