@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F424CE4C1814FEA60049B699 /* Tools4GameControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F424CE481814FEA60049B699 /* Tools4GameControl.cpp */; };
+		F424CE4F1814FFC20049B699 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F424CE4D1814FFC20049B699 /* Logger.cpp */; };
 		F449492A180A9E08005728C0 /* MenuWithAuthority.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4494928180A9E08005728C0 /* MenuWithAuthority.cpp */; };
 		F46950C21809B98E00D870B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46950C11809B98E00D870B7 /* QuartzCore.framework */; };
 		F46950C41809B98E00D870B7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46950C31809B98E00D870B7 /* OpenGLES.framework */; };
@@ -281,11 +283,14 @@
 		F469545F1809B99800D870B7 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F469545E1809B99800D870B7 /* libwebsockets.a */; };
 		F46954651809B99800D870B7 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F46954641809B99800D870B7 /* AppDelegate.cpp */; };
 		F46954681809B99800D870B7 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F46954671809B99800D870B7 /* HelloWorldScene.cpp */; };
-		F46954711809BDEC00D870B7 /* Tools4GameControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F469546F1809BDEC00D870B7 /* Tools4GameControl.cpp */; };
-		F46954741809C22800D870B7 /* Tools4LoadPlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F46954721809C22800D870B7 /* Tools4LoadPlist.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F424CE481814FEA60049B699 /* Tools4GameControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tools4GameControl.cpp; sourceTree = "<group>"; };
+		F424CE491814FEA60049B699 /* Tools4GameControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools4GameControl.h; sourceTree = "<group>"; };
+		F424CE4D1814FFC20049B699 /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		F424CE4E1814FFC20049B699 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		F424CE51181500560049B699 /* Config4Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config4Game.h; path = Classes/tools_4_cocos/Tools/Common/Config4Game.h; sourceTree = "<group>"; };
 		F4494928180A9E08005728C0 /* MenuWithAuthority.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuWithAuthority.cpp; path = Classes/tools_4_cocos/UI/MenuWithAuthority.cpp; sourceTree = "<group>"; };
 		F4494929180A9E08005728C0 /* MenuWithAuthority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuWithAuthority.h; path = Classes/tools_4_cocos/UI/MenuWithAuthority.h; sourceTree = "<group>"; };
 		F46950BE1809B98E00D870B7 /* gameTools4Cocos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameTools4Cocos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -878,10 +883,6 @@
 		F46954641809B99800D870B7 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		F46954661809B99800D870B7 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		F46954671809B99800D870B7 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
-		F469546F1809BDEC00D870B7 /* Tools4GameControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tools4GameControl.cpp; path = Classes/tools_4_cocos/Tools4GameControl.cpp; sourceTree = "<group>"; };
-		F46954701809BDEC00D870B7 /* Tools4GameControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tools4GameControl.h; path = Classes/tools_4_cocos/Tools4GameControl.h; sourceTree = "<group>"; };
-		F46954721809C22800D870B7 /* Tools4LoadPlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tools4LoadPlist.cpp; path = Classes/tools_4_cocos/Tools4LoadPlist.cpp; sourceTree = "<group>"; };
-		F46954731809C22800D870B7 /* Tools4LoadPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tools4LoadPlist.h; path = Classes/tools_4_cocos/Tools4LoadPlist.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -906,6 +907,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F424CE441814FE660049B699 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F4494928180A9E08005728C0 /* MenuWithAuthority.cpp */,
+				F4494929180A9E08005728C0 /* MenuWithAuthority.h */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F424CE451814FE6E0049B699 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F424CE501814FFF80049B699 /* Common */,
+				F424CE461814FEA60049B699 /* AsyncTask */,
+				F424CE471814FEA60049B699 /* Controllers */,
+				F424CE4A1814FEA60049B699 /* DatabaseTools */,
+				F424CE4B1814FEA60049B699 /* Logger */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F424CE461814FEA60049B699 /* AsyncTask */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AsyncTask;
+			path = Classes/tools_4_cocos/Tools/AsyncTask;
+			sourceTree = "<group>";
+		};
+		F424CE471814FEA60049B699 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F424CE481814FEA60049B699 /* Tools4GameControl.cpp */,
+				F424CE491814FEA60049B699 /* Tools4GameControl.h */,
+			);
+			name = Controllers;
+			path = Classes/tools_4_cocos/Tools/Controllers;
+			sourceTree = "<group>";
+		};
+		F424CE4A1814FEA60049B699 /* DatabaseTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DatabaseTools;
+			path = Classes/tools_4_cocos/Tools/DatabaseTools;
+			sourceTree = "<group>";
+		};
+		F424CE4B1814FEA60049B699 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				F424CE4D1814FFC20049B699 /* Logger.cpp */,
+				F424CE4E1814FFC20049B699 /* Logger.h */,
+			);
+			name = Logger;
+			path = Classes/tools_4_cocos/Tools/Logger;
+			sourceTree = "<group>";
+		};
+		F424CE501814FFF80049B699 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F424CE51181500560049B699 /* Config4Game.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		F46950B51809B98E00D870B7 = {
 			isa = PBXGroup;
 			children = (
@@ -2114,22 +2180,10 @@
 		F469546E1809BD3100D870B7 /* tools_4_cocos */ = {
 			isa = PBXGroup;
 			children = (
-				F4494928180A9E08005728C0 /* MenuWithAuthority.cpp */,
-				F4494929180A9E08005728C0 /* MenuWithAuthority.h */,
-				F46954751809C32400D870B7 /* game_tools */,
+				F424CE451814FE6E0049B699 /* Tools */,
+				F424CE441814FE660049B699 /* UI */,
 			);
 			name = tools_4_cocos;
-			sourceTree = "<group>";
-		};
-		F46954751809C32400D870B7 /* game_tools */ = {
-			isa = PBXGroup;
-			children = (
-				F469546F1809BDEC00D870B7 /* Tools4GameControl.cpp */,
-				F46954701809BDEC00D870B7 /* Tools4GameControl.h */,
-				F46954721809C22800D870B7 /* Tools4LoadPlist.cpp */,
-				F46954731809C22800D870B7 /* Tools4LoadPlist.h */,
-			);
-			name = game_tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2454,9 +2508,9 @@
 				F46954571809B99800D870B7 /* cpVect.c in Sources */,
 				F46954651809B99800D870B7 /* AppDelegate.cpp in Sources */,
 				F46954681809B99800D870B7 /* HelloWorldScene.cpp in Sources */,
-				F46954711809BDEC00D870B7 /* Tools4GameControl.cpp in Sources */,
-				F46954741809C22800D870B7 /* Tools4LoadPlist.cpp in Sources */,
 				F449492A180A9E08005728C0 /* MenuWithAuthority.cpp in Sources */,
+				F424CE4C1814FEA60049B699 /* Tools4GameControl.cpp in Sources */,
+				F424CE4F1814FFC20049B699 /* Logger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

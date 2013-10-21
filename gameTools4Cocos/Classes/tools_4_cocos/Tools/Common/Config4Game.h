@@ -10,5 +10,7 @@
 #define gameTools4Cocos_Config4Game_h
 
 
+#include "cocos2d.h"
+USING_NS_CC;
 
 #endif

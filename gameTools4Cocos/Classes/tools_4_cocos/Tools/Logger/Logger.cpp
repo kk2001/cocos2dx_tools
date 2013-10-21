@@ -7,3 +7,13 @@
 //
 
 #include "Logger.h"
+
+
+bool Logger::bOpenLogger = true;
+
+
+void Logger::output(const char * pszFormat, ...) {
+
+    
+    
+}
